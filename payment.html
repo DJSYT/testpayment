@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DJS UPI Payment</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0a0a0a;
+      color: #fff;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    h1 {
+      color: #00e676;
+      font-size: 28px;
+    }
+
+    button {
+      background: #00e676;
+      border: none;
+      color: #000;
+      padding: 15px 40px;
+      font-size: 18px;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: 0.3s;
+      box-shadow: 0 0 10px #00e676;
+      margin: 15px;
+    }
+
+    button:hover {
+      background: #1de9b6;
+      transform: scale(1.05);
+    }
+
+    .note {
+      margin-top: 20px;
+      font-size: 15px;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Support DJS 💚</h1>
+  <p>Tap below to pay via Google Pay / PhonePe / Paytm</p>
+
+  <!-- Custom amount button -->
+  <a href="upi://pay?pa=8763608517@axl&pn=DJS_YT&cu=INR" target="_blank">
+    <button>Pay Custom Amount</button>
+  </a>
+
+  <!-- ₹50 Web Development payment button -->
+  <a href="upi://pay?pa=8763608517@axl&pn=DJS_YT&am=50&cu=INR&tn=Web%20Development%20Services" target="_blank">
+    <button>Pay ₹50 for Web Development Services</button>
+  </a>
+
+  <p class="note">Payments are made securely through your UPI app.</p>
+
+</body>
+</html>
